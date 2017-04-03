@@ -17,7 +17,4 @@
      	);
 
 
-     Response ::json(200,'请求成功',$data);  //json  数据
-
-
-    Response :: XmlEncode(200,'请求成功',$data);    //xml  数据
+     Response ::show_api(200,'请求成功',$data); 
